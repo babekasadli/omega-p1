@@ -20,7 +20,7 @@
         margin-top: 5%;
         margin-left: 7%;
     }
-    h2 {
+    .h2 {
         margin: 0;
         font-family: 'Roboto Slab', serif;
         font-style: normal;
@@ -157,12 +157,12 @@
         flex-direction: column;
         margin-left: 0;
     }
+    .social-account {
+        padding-left: 7%;
+        padding-top: 5%;
+    }
     .number {
         margin: 0;
-    }
-    .social-acoount {
-        padding-top: 3%;
-        padding-left: 8%;
     }
     .second-footer-part2 {
         padding-left: 7%;
