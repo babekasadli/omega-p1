@@ -7,27 +7,27 @@
     body {
         margin: 0;
     }
-    .course-information {
+    .general-information-description {
         width: 100%;
         height: 480px;
         background-color: #EFEFEF;
     }
-    .main {
+    .main-information {
         display: flex;
         flex-direction: column;
     }
-    .h2-tag {
+    .participate-user {
         margin-top: 5%;
         margin-left: 7%;
     }
-    .h2 {
+    .participate-user-information {
         margin: 0;
         font-family: 'Roboto Slab', serif;
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
     }
-    .box {
+    .general-user-box {
         border-radius: 17.375px;
         background-color: #FFFFFF;
         width: 30%;
@@ -36,11 +36,11 @@
         margin-top: 3%;
         margin-left: 7%;
     }
-    .box-p {
+    .general-user-information {
         width: 90%;
         height: 80%;
     }
-    .box-paragraph {
+    .user-feedback {
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
         font-style: normal;
@@ -48,7 +48,7 @@
         margin-left: 5%;
         margin-top: 6%;
     }
-    .ekatrine-photo {
+    .user-description {
         display: flex;
         margin-left: 5%;
     }
@@ -60,55 +60,55 @@
     .user-about {
         margin-left: 5%;
     }
-    .first-footer {
+    .general-course-information {
         background-color: #9DC9C8;
         height: 768px;
         width: 100%;
     }
-    .first-footer-part1 {
+    .general-usage-rules {
         display: flex;
         font-family: 'Roboto', sans-serif;
         color: #000000;
         margin-top: 5%;
         margin-left: 5%;
     }
-    .item1 {
+    .compliance-rules {
         margin-right: 80px;
     }
-    .parent-paragraph {
+    .statement {
         font-size: 25px;
         width: 294px;
         height: 32px;
     }
-    .child-paragraph {
+    .detailed-explanation {
         font-size: 18px;
         width: 294px;
         height: 70px;
     }
-    .date {
+    .course-date {
         padding-top: 7%;
         padding-left: 5%;
     }
-    .money {
+    .price-information {
         padding-left: 5%;
         margin-top: 4%;
     }
-    .date-h2 {
+    .course-start-date {
         font-size: 55px;
         font-family: 'Roboto Slab', serif;
         font-weight: 700;
     }
-    .stoimost {
+    .price {
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         margin: 0;
     }
-    .rubl {
+    .price-value {
         font-family: 'Roboto', sans-serif;
         font-size: 80px;
         margin: 0;
     }
-    .second-footer {
+    .general-social-information {
         background-color: #000000;
         width: 100%;
         height: 400px;
@@ -117,11 +117,11 @@
         width: 230px;
         height: 40px;
     }
-    .second-footer-part1 {
+    .social-footer {
         display: flex;
         justify-content: space-between;
     }
-    .icon {
+    .social-icons {
         margin-top: 30px;
         width: 190px;
         display: flex;
@@ -138,7 +138,7 @@
     .end {
         color: #ffffff;
     }
-    .contact {
+    .contact-about {
         width: 15%;
         display: flex;
         padding-top: 4%;
@@ -164,7 +164,7 @@
     .number {
         margin: 0;
     }
-    .second-footer-part2 {
+    .about-the-ending {
         padding-left: 7%;
         padding-top: 7%;
     }
