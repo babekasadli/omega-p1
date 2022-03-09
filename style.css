@@ -6,22 +6,21 @@
     font-family: Roboto Slab;
 }
 .part-1 .logo {
-    width: 80%;
-    margin: auto;
-    padding: 30px 0 50px ;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 .part-1 .section-2{
-    width: 80%;
-    margin: auto;
-    padding: 50px 0;
-    display: flex;
-    
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    display: flex;  
 }
 .part-1 .section-2 .icon-and-text .icons{
     display: flex;
+    margin-bottom: 3%;
 }
 .margin-icon{
-    margin-right: 30px;
+    margin-right: 2%;
 }
 .margin-text-logo{
     margin-left: 10px;
@@ -37,11 +36,10 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+
 }
 .part-1 .section-4{
-    width: 80%;
     margin: auto;
-    padding: 50px 0;
 }
 .part-1 .section-4{
     width: 30%;
@@ -51,7 +49,7 @@
     background-color: #1E4681;
     border-radius: 5px;
     color: #FFFFFF;
-    padding: 10px 20px;
+    padding: 1% 1.5%;
 }
 .part-1 .section-4 div .comment{
     text-align: left;
@@ -65,14 +63,14 @@
 
 .part-2 .section-1{
     width: 80%;
-    margin: auto;
-    padding: 50px 0;
+    margin-left: 5%;
+    margin-top: 2%;
 }
   
 .part-2 .section-1 h1{
     font-weight: bold;
     font-size: 55px;
-    margin-bottom: 15px;
+    margin-bottom: 4%;
 }
   
 .part-2 .section-1 .container{
@@ -89,7 +87,6 @@
   
 .part-2 .section-1 .container .left-box p{
     font-size: 20px;
-    line-height: 150%;
 }
   
 .part-2 .section-1 .container .left-box p:first-child{
@@ -118,7 +115,7 @@
 
   
 .part-2 .section-2 .container .right-box{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     margin-right: -500px;
@@ -131,7 +128,6 @@
 .part-2 .section-2 .container .right-box .text h3{
     font-weight: bold;
     font-size: 20px;
-    line-height: 130%;
 }
   
 .part-2 .section-2 .container .right-box .text p{
@@ -212,3 +208,15 @@
         width: 100%;
     }
 } 
+
+
+
+@media (min-width: 1280px) {
+
+}
+@media (max-width: 1279px) and (min-width: 992px) {
+
+}
+@media (min-width: 320px) and (min-width: 991px){
+
+}
