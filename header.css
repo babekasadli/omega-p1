@@ -7,52 +7,52 @@
     box-sizing: border-box;
     font-family: Roboto Slab;
 }
-.kak-smotret-film{
+.h-kak-smotret-film{
     padding: 2% 5%;
 
 }
 
-.kak-smotret-film .logo {
+.h-kak-smotret-film .h-logo {
     margin: 2% 0;
 }
 
-.kak-smotret-film .section-2 {
+.h-kak-smotret-film .h-section-2 {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 
-.kak-smotret-film .section-2 .icon-and-text .icons {
+.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons {
     display: flex;
     margin-bottom: 3%;
 }
 
-.kak-smotret-film .section-2 .icon-and-text .icons .margin-icon {
+.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons .h-margin-icon {
     margin-right: 2%;
 }
 
-.margin-text-logo {
+.h-margin-text-logo {
     margin-left: 10px;
 }
 
-.kak-smotret-film .section-2 .icon-and-text{
+.h-kak-smotret-film .h-section-2 .h-icon-and-text{
     width: 50%;
 } /**/
 
 
-.kak-smotret-film .section-2 .icon-and-text .left-box h1 {
+.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
     font-size: 72px;
 }
 
-.kak-smotret-film .section-2 .right-box {
+.h-kak-smotret-film .h-section-2 .h-right-box {
     width: 50%;
 
 }
-.kak-smotret-film .section-2 .right-box .img {
+.h-kak-smotret-film .h-section-2 .h-right-box .h-img {
     display: flex;
     justify-content: center;
 }
-.kak-smotret-film .blue-box {
+.h-kak-smotret-film .h-blue-box {
     margin: auto;
     width: 40%;
     border: 1px solid #1E4681;
@@ -64,193 +64,193 @@
 
 
 }
-.kak-smotret-film .blue-box div .comment {
+.h-kak-smotret-film .h-blue-box div .h-comment {
     text-align: left;
     font-size: 25px;
 }
-.kak-smotret-film .blue-box div .comment-author {
+.h-kak-smotret-film .h-blue-box div .h-comment-author {
     font-size: 18px;
     text-align: right;
 }
-.o-kurse{
+.h-o-kurse{
     padding: 2% 5%;
 
 }
-.o-kurse .section-1 h1 {
+.h-o-kurse .h-section-1 h1 {
     font-weight: bold;
     font-size: 55px;
 }
-.o-kurse .section-1 .container {
+.h-o-kurse .h-section-1 .h-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.o-kurse .section-1 .container .left-box {
+.h-o-kurse .h-section-1 .h-container .h-left-box {
     width: 60%;
 }
-.o-kurse .section-1 .container .left-box p {
+.h-o-kurse .h-section-1 .h-container .h-left-box p {
     font-size: 20px;
 }
-.o-kurse .section-1 .container .left-box p:first-child {
+.h-o-kurse .h-section-1 .h-container .h-left-box p:first-child {
     margin-bottom: 25px;
 }
-.o-kurse .section-1 .container .right-box {
+.h-o-kurse .h-section-1 .h-container .h-right-box {
     width: 40%;
 }
-.o-kurse .section-1 .container .right-box .img{
+.h-o-kurse .h-section-1 .h-container .h-right-box .h-img{
     display: flex;
     justify-content: flex-end;
 }
-.o-kurse .section-1 .container .right-box .img .img-1{
+.h-o-kurse .h-section-1 .h-container .h-right-box .h-img .h-img-1{
     width: 100%;
 }
-.o-kurse .section-2 .container {
+.h-o-kurse .h-section-2 .h-container {
     display: flex;
     align-items: center;
 }
-.o-kurse .section-2 .container .right-box {
+.h-o-kurse .h-section-2 .h-container .h-right-box {
     width:70%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.o-kurse .section-2 .container .right-box .text {
+.h-o-kurse .h-section-2 .h-container .h-right-box .h-text {
     width: 25%;
 }
 
-.o-kurse .section-2 .container .right-box .text h3 {
+.h-o-kurse .h-section-2 .h-container .h-right-box .h-text h3 {
     font-weight: bold;
     font-size: 20px;
 }
 
-.o-kurse .section-2 .container .right-box .text p {
+.h-o-kurse .h-section-2 .h-container .h-right-box .h-text p {
     width: 50%;
     font-size: 12px;
 }
 
-.o-kurse .section-2 .container .left-box {
+.h-o-kurse .h-section-2 .h-container .h-left-box {
     width: 35%;
 }
 
 @media (max-width: 1279px) and (min-width: 992px) {
-    .kak-smotret-film .section-2 .icon-and-text .left-box h1 {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
         font-size: 41px ;
     }
-    .kak-smotret-film .section-2 .icon-and-text .left-box p {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box p {
         font-size: 12px ;
     }
-    .kak-smotret-film .blue-box {
+    .h-kak-smotret-film .h-blue-box {
         width: 29%;
         margin: auto;
         margin-top: 10%;
     }
-    .kak-smotret-film .blue-box div .comment {
+    .h-kak-smotret-film .h-blue-box div .h-comment {
         font-size: 14px;
     }
     
-    .kak-smotret-film .blue-box div .comment-author {
+    .h-kak-smotret-film .h-blue-box div .h-comment-author {
         font-size: 12px;
     }
-    .o-kurse .section-1 h1 {
+    .h-o-kurse .h-section-1 h1 {
         font-size: 32px;
     }
-    .o-kurse .section-1 .container .left-box {
+    .h-o-kurse .h-section-1 .h-container .h-left-box {
         line-height: 150%;
     }
-    .o-kurse .section-1 .container .left-box .text p{
+    .h-o-kurse .h-section-1 .h-container .h-left-box .h-text p{
         font-size: 14px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
     
-    .kak-smotret-film .logo img {
+    .h-kak-smotret-film .h-logo img {
         width: 15%;
         height: 15%;
     }
 
-    .kak-smotret-film .section-2 .icon-and-text .left-box h1 {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
         font-size: 37px ;
     }
-    .kak-smotret-film .section-2 .icon-and-text .left-box p {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box p {
         font-size: 10px ;
     }
 
-    .kak-smotret-film .section-2 .icon-and-text .icons img {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons img {
         width: 25%;
         height: 25%;
     }
-    .kak-smotret-film .section-2 .icon-and-text .icons span {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons span {
         font-size: 10px;
     }
-    .kak-smotret-film .section-2 .icon-and-text .icons span {
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons span {
         font-size: 10px;
         margin-left: -5px;
     }
 
-    .kak-smotret-film .section-2 .icon-and-text{
+    .h-kak-smotret-film .h-section-2 .h-icon-and-text{
         width: 100%;
         margin-bottom: 5%;
     }
 
-    .kak-smotret-film .section-2 .right-box {
+    .h-kak-smotret-film .h-section-2 .h-right-box {
         width: 100%;
         display: flex;
         justify-content: flex-end;   
     }
-    .kak-smotret-film .section-2 .right-box .img{
+    .h-kak-smotret-film .h-section-2 .h-right-box .h-img{
         width: 60%;
             
     }
-    .kak-smotret-film .section-2 .right-box .img .img-1{
+    .h-kak-smotret-film .h-section-2 .h-right-box .h-img .h-img-1{
         width: 100%;
     }
-    .kak-smotret-film .blue-box {
+    .h-kak-smotret-film .h-blue-box {
         width: 70%;
         margin: initial;
         margin-top: 10%;
     }
-    .kak-smotret-film .blue-box div .comment {
+    .h-kak-smotret-film .h-blue-box div .h-comment {
         font-size: 11px;
     }
     
-    .kak-smotret-film .blue-box div .comment-author {
+    .h-kak-smotret-film .h-blue-box div .h-comment-author {
         font-size: 10px;
     }
-    .o-kurse .section-1 h1 {
+    .h-o-kurse .h-section-1 h1 {
         font-size: 26px;
     }
-    .o-kurse .section-1 .container .left-box {
+    .h-o-kurse .h-section-1 .h-container .h-left-box {
         width: 100%;
         margin-bottom: 10%;
     }
-    .o-kurse .section-1 .container .left-box .text p{
+    .h-o-kurse .h-section-1 .h-container .h-left-box .h-text p{
         font-size: 12px;
     }
-    .o-kurse .section-1 .container .right-box {
+    .h-o-kurse .h-section-1 .h-container .h-right-box {
         width: 100%;
         
     }
-    .o-kurse .section-1 .container .right-box .img {
+    .h-o-kurse .h-section-1 .h-container .h-right-box .h-img {
         width: 70%;
         margin: auto;
         
     }
-    .o-kurse .section-1 h1 {
+    .h-o-kurse .h-section-1 h1 {
         margin-bottom: 4%; 
     }
     
-    .o-kurse .section-2 .container .left-box {
+    .h-o-kurse .h-section-2 .h-container .h-left-box {
         display: none;
     }
-    .o-kurse .section-2 .container .right-box {
+    .h-o-kurse .h-section-2 .h-container .h-right-box {
         width: 100%;
         margin-top: 10%;
 
     }
-    .o-kurse .section-2 .container .right-box .text {
+    .h-o-kurse .h-section-2 .h-container .h-right-box .h-text {
         width: 50%;
         margin-bottom: 7%;
     }
