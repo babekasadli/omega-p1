@@ -1,19 +1,20 @@
-/*section 1*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
-}
+/*section 2*/
 @media (min-width:1280px) {
+
     /*desktop*/
-    .main2 h2{
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .main2 h2 {
         display: block;
         font-size: 55px;
         font-weight: 700;
         padding: 0px 6%;
         margin-bottom: 100px;
     }
-    .rec{
+
+    .rec {
         width: 399px;
         height: 328px;
         background-color: white;
@@ -21,36 +22,47 @@ body{
         filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.25));
         margin: 15px;
     }
-    .main2-p1{
+
+    .main2-p1 {
         font-weight: bold;
         font-size: 30px;
     }
-    .main2-p2{
+
+    .main2-p2 {
         font-size: 25px;
     }
-    .main2 img{
+
+    .main2 img {
         width: 399px;
     }
-    .main2container{
+
+    .main2container {
         display: flex;
         flex-wrap: wrap;
         padding: 0 3%;
     }
-    .rec p{
+
+    .rec p {
         margin: 10px;
     }
 }
 
-@media (min-width:992px) and (max-width: 1279px){
+@media (min-width:992px) and (max-width: 1279px) {
+
     /*tablet*/
-    .main2 h2{
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .main2 h2 {
         display: block;
         font-size: 32px;
         font-weight: 700;
         padding: 0px 6%;
         margin-bottom: 50px;
     }
-    .rec{
+
+    .rec {
         width: 231px;
         height: 190px;
         background-color: white;
@@ -58,29 +70,39 @@ body{
         filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.25));
         margin: 15px;
     }
-    .main2-p1{
+
+    .main2-p1 {
         font-weight: bold;
         font-size: 17px;
     }
-    .main2-p2{
+
+    .main2-p2 {
         font-size: 14px;
     }
-    .main2 img{
+
+    .main2 img {
         width: 231px;
     }
-    .main2container{
+
+    .main2container {
         display: flex;
         flex-wrap: wrap;
         padding: 0 3%;
     }
-    .rec p{
+
+    .rec p {
         margin: 10px;
     }
 }
 
-@media (min-width:320px) and (max-width: 991px){
+@media (min-width:320px) and (max-width: 991px) {
+
     /*mobile*/
-    .main2 h2{
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .main2 h2 {
         display: block;
         font-size: 26px;
         font-weight: 700;
@@ -88,7 +110,8 @@ body{
         margin-bottom: 30px;
         text-align: center;
     }
-    .rec{
+
+    .rec {
         width: 186px;
         height: 153px;
         background-color: white;
@@ -96,17 +119,21 @@ body{
         filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.25));
         margin: 15px;
     }
-    .main2-p1{
+
+    .main2-p1 {
         font-weight: bold;
         font-size: 14px;
     }
-    .main2-p2{
+
+    .main2-p2 {
         font-size: 12px;
     }
-    .main2 img{
+
+    .main2 img {
         width: 186px;
     }
-    .main2container{
+
+    .main2container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -114,8 +141,10 @@ body{
         justify-content: center;
         padding: 0 3%;
     }
-    .rec p{
+
+    .rec p {
         margin: 10px;
     }
 }
-/*finish section 1*/
+
+/*finish section 2*/
