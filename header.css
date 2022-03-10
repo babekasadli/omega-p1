@@ -12,22 +12,22 @@
 
 }
 
-.h-kak-smotret-film .h-logo {
+.h-logo {
     margin: 2% 0;
 }
 
-.h-kak-smotret-film .h-section-2 {
+.h-section-2 {
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 
-.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons {
+.h-icons {
     display: flex;
     margin-bottom: 3%;
 }
 
-.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons .h-margin-icon {
+.h-margin-icon {
     margin-right: 2%;
 }
 
@@ -35,24 +35,24 @@
     margin-left: 10px;
 }
 
-.h-kak-smotret-film .h-section-2 .h-icon-and-text{
+.h-icon-and-text{
     width: 50%;
 } /**/
 
 
-.h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
-    font-size: 72px;
+.h-left-box h1 {
+    font-size: 80px;
 }
 
-.h-kak-smotret-film .h-section-2 .h-right-box {
+.h-right-box {
     width: 50%;
 
 }
-.h-kak-smotret-film .h-section-2 .h-right-box .h-img {
+.h-img {
     display: flex;
     justify-content: center;
 }
-.h-kak-smotret-film .h-blue-box {
+.h-blue-box {
     margin: auto;
     width: 40%;
     border: 1px solid #1E4681;
@@ -64,11 +64,11 @@
 
 
 }
-.h-kak-smotret-film .h-blue-box div .h-comment {
+.h-comment {
     text-align: left;
     font-size: 25px;
 }
-.h-kak-smotret-film .h-blue-box div .h-comment-author {
+.h-comment-author {
     font-size: 18px;
     text-align: right;
 }
@@ -76,181 +76,181 @@
     padding: 2% 5%;
 
 }
-.h-o-kurse .h-section-1 h1 {
+.h-section-1 h1 {
     font-weight: bold;
     font-size: 55px;
 }
-.h-o-kurse .h-section-1 .h-container {
+.h-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-.h-o-kurse .h-section-1 .h-container .h-left-box {
+.h-left-box {
     width: 60%;
 }
-.h-o-kurse .h-section-1 .h-container .h-left-box p {
+.h-left-box p {
     font-size: 20px;
 }
-.h-o-kurse .h-section-1 .h-container .h-left-box p:first-child {
+.h-left-box p:first-child {
     margin-bottom: 25px;
 }
-.h-o-kurse .h-section-1 .h-container .h-right-box {
+.h-right-box {
     width: 40%;
 }
-.h-o-kurse .h-section-1 .h-container .h-right-box .h-img{
+.h-img{
     display: flex;
     justify-content: flex-end;
 }
-.h-o-kurse .h-section-1 .h-container .h-right-box .h-img .h-img-1{
+.h-img-1{
     width: 100%;
 }
-.h-o-kurse .h-section-2 .h-container {
+.h-container {
     display: flex;
     align-items: center;
 }
-.h-o-kurse .h-section-2 .h-container .h-right-box {
+.h-right-box {
     width:70%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.h-o-kurse .h-section-2 .h-container .h-right-box .h-text {
+.h-text {
     width: 25%;
 }
 
-.h-o-kurse .h-section-2 .h-container .h-right-box .h-text h3 {
+.h-text h3 {
     font-weight: bold;
     font-size: 20px;
 }
 
-.h-o-kurse .h-section-2 .h-container .h-right-box .h-text p {
+.h-text p {
     width: 50%;
     font-size: 12px;
 }
 
-.h-o-kurse .h-section-2 .h-container .h-left-box {
+.h-left-box {
     width: 35%;
 }
 
 @media (max-width: 1279px) and (min-width: 992px) {
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
+    .h-left-box h1 {
         font-size: 41px ;
     }
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box p {
+    .h-left-box p {
         font-size: 12px ;
     }
-    .h-kak-smotret-film .h-blue-box {
+    .h-blue-box {
         width: 29%;
         margin: auto;
         margin-top: 10%;
     }
-    .h-kak-smotret-film .h-blue-box div .h-comment {
+    .h-comment {
         font-size: 14px;
     }
     
-    .h-kak-smotret-film .h-blue-box div .h-comment-author {
+    .h-comment-author {
         font-size: 12px;
     }
-    .h-o-kurse .h-section-1 h1 {
+    .h-section-1 h1 {
         font-size: 32px;
     }
-    .h-o-kurse .h-section-1 .h-container .h-left-box {
+    .h-left-box {
         line-height: 150%;
     }
-    .h-o-kurse .h-section-1 .h-container .h-left-box .h-text p{
+    .h-text p{
         font-size: 14px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
     
-    .h-kak-smotret-film .h-logo img {
+    .h-logo img {
         width: 15%;
         height: 15%;
     }
 
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box h1 {
+    .h-left-box h1 {
         font-size: 37px ;
     }
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-left-box p {
+    .h-left-box p {
         font-size: 10px ;
     }
 
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons img {
+    .h-icons img {
         width: 25%;
         height: 25%;
     }
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons span {
+    .h-icons span {
         font-size: 10px;
     }
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text .h-icons span {
+    .h-icons span {
         font-size: 10px;
         margin-left: -5px;
     }
 
-    .h-kak-smotret-film .h-section-2 .h-icon-and-text{
+    .h-icon-and-text{
         width: 100%;
         margin-bottom: 5%;
     }
 
-    .h-kak-smotret-film .h-section-2 .h-right-box {
+    .h-right-box {
         width: 100%;
         display: flex;
         justify-content: flex-end;   
     }
-    .h-kak-smotret-film .h-section-2 .h-right-box .h-img{
+    .h-img{
         width: 60%;
             
     }
-    .h-kak-smotret-film .h-section-2 .h-right-box .h-img .h-img-1{
+    .h-img-1{
         width: 100%;
     }
-    .h-kak-smotret-film .h-blue-box {
+    .h-blue-box {
         width: 70%;
         margin: initial;
         margin-top: 10%;
     }
-    .h-kak-smotret-film .h-blue-box div .h-comment {
+    .h-comment {
         font-size: 11px;
     }
     
-    .h-kak-smotret-film .h-blue-box div .h-comment-author {
+    .h-comment-author {
         font-size: 10px;
     }
-    .h-o-kurse .h-section-1 h1 {
+    .h-section-1 h1 {
         font-size: 26px;
     }
-    .h-o-kurse .h-section-1 .h-container .h-left-box {
+    .h-left-box {
         width: 100%;
         margin-bottom: 10%;
     }
-    .h-o-kurse .h-section-1 .h-container .h-left-box .h-text p{
+    .h-text p{
         font-size: 12px;
     }
-    .h-o-kurse .h-section-1 .h-container .h-right-box {
+    .h-right-box {
         width: 100%;
         
     }
-    .h-o-kurse .h-section-1 .h-container .h-right-box .h-img {
+    .h-img {
         width: 70%;
         margin: auto;
         
     }
-    .h-o-kurse .h-section-1 h1 {
+    .h-section-1 h1 {
         margin-bottom: 4%; 
     }
     
-    .h-o-kurse .h-section-2 .h-container .h-left-box {
+    .h-left-box {
         display: none;
     }
-    .h-o-kurse .h-section-2 .h-container .h-right-box {
+    .h-right-box {
         width: 100%;
         margin-top: 10%;
 
     }
-    .h-o-kurse .h-section-2 .h-container .h-right-box .h-text {
+    .h-text {
         width: 50%;
         margin-bottom: 7%;
     }
