@@ -285,7 +285,7 @@
     .general-social-information {
         background-color: #000000;
         width: 100%;
-        height: 400px;
+        height: 366px;
     }
     .end-paragraph {
         width: 230px;
@@ -297,7 +297,7 @@
     }
     .social-icons {
         margin-top: 30px;
-        width: 190px;
+        width: 130px;
         display: flex;
         justify-content: space-between;
     }
@@ -327,7 +327,7 @@
     .email-account {
         display: flex;
         margin-top: 4%;
-        height: 55%;
+        height: 50%;
         flex-direction: column;
         margin-left: 0;
     }
@@ -337,6 +337,10 @@
     }
     .number {
         margin: 0;
+        font-size: 14px;
+    }
+    .email {
+        font-size: 14px;
     }
     .about-the-ending {
         padding-left: 7%;
@@ -346,9 +350,236 @@
         font-family: 'Roboto', sans-serif;
         font-size: 10px;
     }
+    .sinxron-logo {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .instagram,
+    .facebook,
+    .social,
+    .whatsapp {
+        width: 15.38px;
+        height: 15.38px;
+    }
+    .phone-logo {
+        width: 15.64px;
+        height: 15.64px;
+    }
+    .mail-logo {
+        width: 15.64px;
+        height: 10.43px;
+    }
 }
 
 
 /*mobile*/
 
-@media (min-width: 320px) and (min-width: 991px) {}
+@media (min-width: 320px) and (max-width: 991px) {
+    body {
+        margin: 0;
+    }
+    .general-information-description {
+        width: 100%;
+        height: 400px;
+        background-color: #EFEFEF;
+    }
+    .main-information {
+        display: flex;
+        flex-direction: column;
+    }
+    .participate-user {
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .participate-user-information {
+        margin: 0;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+    }
+    .general-user-box {
+        background-color: #FFFFFF;
+        width: 84%;
+        margin-top: 3%;
+        margin-left: 7%;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+    .general-user-information {
+        width: 84%;
+        height: 80%;
+    }
+    .user-feedback {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+    .user-description {
+        display: flex;
+        margin-left: 5%;
+    }
+    .user-photo {
+        width: 80px;
+        height: 84px;
+    }
+    .user-name {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .facebook-icon {
+        width: 14.91px;
+        height: 17.2px;
+    }
+    .general-course-information {
+        background-color: #9DC9C8;
+        height: 423px;
+        width: 100%;
+    }
+    .course-date {
+        padding-top: 7%;
+        padding-left: 5%;
+        width: 55%;
+    }
+    .price-information {
+        padding-left: 5%;
+        margin-top: 8%;
+    }
+    .course-start-date {
+        font-size: 26px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+    }
+    .price {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        margin: 0;
+    }
+    .price-value {
+        font-family: 'Roboto', sans-serif;
+        font-size: 37px;
+        margin: 0;
+    }
+    .general-usage-rules {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .compliance-rules {
+        margin-right: 28px;
+    }
+    .statement {
+        font-size: 12px;
+        width: 132px;
+        height: 8px;
+    }
+    .detailed-explanation {
+        font-size: 10px;
+        width: 147px;
+        height: 70px;
+    }
+    .general-social-information {
+        background-color: #000000;
+        width: 100%;
+        height: 264px;
+    }
+    .instagram {
+        width: 15.38px;
+        height: 15.38px;
+    }
+    .facebook {
+        width: 14.91px;
+        height: 14.91px;
+    }
+    .social {
+        width: 16.31px;
+        height: 16.31px;
+    }
+    .whatsapp {
+        width: 15.84px;
+        height: 15.84px;
+    }
+    .sinxron-logo {
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .phone-logo {
+        width: 12.58px;
+        height: 12.58px;
+    }
+    .mail-logo {
+        width: 12.58px;
+        height: 8.39px;
+    }
+    .number,
+    .email,
+    .end {
+        color: #ffffff;
+    }
+    .number,
+    .email {
+        font-size: 12px;
+        margin: 0;
+    }
+    .about-the-ending {
+        padding-left: 7%;
+        padding-top: 1%;
+    }
+    .end {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        margin-top: 12%;
+    }
+    .social-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icons {
+        margin-top: 20px;
+        width: 105px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-information,
+    .email-account {
+        width: 60%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .social-account {
+        padding-left: 7%;
+        padding-top: 5%;
+    }
+    /* .contact-about {
+        width: 15%;
+        display: flex;
+        padding-top: 4%;
+        padding-left: 6%;
+    } */
+    .phone-information {
+        display: flex;
+        margin-right: 0;
+        flex-direction: column;
+        height: 55%;
+    }
+    .email-account {
+        display: flex;
+        margin-top: 4%;
+        height: 55%;
+        margin-left: 0;
+        flex-direction: column;
+        margin-left: -9px;
+    }
+    .contact-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 43%;
+        margin-top: 28px;
+    }
+}
