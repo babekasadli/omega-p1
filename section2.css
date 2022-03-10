@@ -6,7 +6,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .main2 h2 {
+    .s-main2 h2 {
         display: block;
         font-size: 55px;
         font-weight: 700;
@@ -14,7 +14,7 @@
         margin-bottom: 100px;
     }
 
-    .rec {
+    .s-rec {
         width: 399px;
         height: 328px;
         background-color: white;
@@ -23,26 +23,26 @@
         margin: 15px;
     }
 
-    .main2-p1 {
+    .s-main2-p1 {
         font-weight: bold;
         font-size: 30px;
     }
 
-    .main2-p2 {
+    .s-main2-p2 {
         font-size: 25px;
     }
 
-    .main2 img {
+    .s-main2 img {
         width: 399px;
     }
 
-    .main2container {
+    .s-main2container {
         display: flex;
         flex-wrap: wrap;
         padding: 0 3%;
     }
 
-    .rec p {
+    .s-rec p {
         margin: 10px;
     }
 }
@@ -54,7 +54,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .main2 h2 {
+    .s-main2 h2 {
         display: block;
         font-size: 32px;
         font-weight: 700;
@@ -62,7 +62,7 @@
         margin-bottom: 50px;
     }
 
-    .rec {
+    .s-rec {
         width: 231px;
         height: 190px;
         background-color: white;
@@ -71,26 +71,26 @@
         margin: 15px;
     }
 
-    .main2-p1 {
+    .s-main2-p1 {
         font-weight: bold;
         font-size: 17px;
     }
 
-    .main2-p2 {
+    .s-main2-p2 {
         font-size: 14px;
     }
 
-    .main2 img {
+    .s-main2 img {
         width: 231px;
     }
 
-    .main2container {
+    .s-main2container {
         display: flex;
         flex-wrap: wrap;
         padding: 0 3%;
     }
 
-    .rec p {
+    .s-rec p {
         margin: 10px;
     }
 }
@@ -102,7 +102,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    .main2 h2 {
+    .s-main2 h2 {
         display: block;
         font-size: 26px;
         font-weight: 700;
@@ -111,7 +111,7 @@
         text-align: center;
     }
 
-    .rec {
+    .s-rec {
         width: 186px;
         height: 153px;
         background-color: white;
@@ -120,20 +120,20 @@
         margin: 15px;
     }
 
-    .main2-p1 {
+    .s-main2-p1 {
         font-weight: bold;
         font-size: 14px;
     }
 
-    .main2-p2 {
+    .s-main2-p2 {
         font-size: 12px;
     }
 
-    .main2 img {
+    .s-main2 img {
         width: 186px;
     }
 
-    .main2container {
+    .s-main2container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -142,7 +142,7 @@
         padding: 0 3%;
     }
 
-    .rec p {
+    .s-rec p {
         margin: 10px;
     }
 }
