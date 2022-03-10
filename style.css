@@ -177,7 +177,176 @@
 
 /*tablet*/
 
-@media (max-width: 1279px) and (min-width: 992px) {}
+@media (max-width: 1279px) and (min-width: 992px) {
+    body {
+        margin: 0;
+    }
+    .general-information-description {
+        width: 100%;
+        height: 400px;
+        background-color: #EFEFEF;
+    }
+    .main-information {
+        display: flex;
+        flex-direction: column;
+    }
+    .participate-user {
+        margin-top: 4%;
+        margin-left: 7%;
+    }
+    .participate-user-information {
+        margin: 0;
+        font-family: 'Roboto Slab', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+    }
+    .general-user-box {
+        border-radius: 17.375px;
+        background-color: #FFFFFF;
+        width: 35%;
+        height: 1%;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        margin-top: 3%;
+        margin-left: 7%;
+    }
+    .user-feedback {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+    .general-user-information {
+        width: 91%;
+        height: 80%;
+    }
+    .user-description {
+        display: flex;
+        margin-left: 5%;
+    }
+    .user-name {
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        font-size: 17px;
+    }
+    .user-about {
+        margin-left: 5%;
+    }
+    .general-course-information {
+        background-color: #9DC9C8;
+        height: 600px;
+        width: 100%;
+    }
+    .general-usage-rules {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .compliance-rules {
+        margin-right: 80px;
+    }
+    .statement {
+        font-size: 14px;
+        width: 170px;
+        height: 19px;
+    }
+    .detailed-explanation {
+        font-size: 10px;
+        width: 170px;
+        height: 41px;
+    }
+    .course-date {
+        padding-top: 7%;
+        padding-left: 5%;
+    }
+    .price-information {
+        padding-left: 5%;
+        margin-top: 4%;
+    }
+    .course-start-date {
+        font-size: 32px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 700;
+    }
+    .price {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        margin: 0;
+    }
+    .price-value {
+        font-family: 'Roboto', sans-serif;
+        font-size: 46px;
+        margin: 0;
+    }
+    .general-social-information {
+        background-color: #000000;
+        width: 100%;
+        height: 400px;
+    }
+    .end-paragraph {
+        width: 230px;
+        height: 40px;
+    }
+    .social-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-icons {
+        margin-top: 30px;
+        width: 190px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-information,
+    .email-account {
+        width: 60%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .number,
+    .email,
+    .end {
+        color: #ffffff;
+    }
+    .contact-about {
+        width: 15%;
+        display: flex;
+        padding-top: 4%;
+        padding-right: 10%;
+    }
+    .phone-information {
+        display: flex;
+        margin-right: 0;
+        flex-direction: column;
+        height: 55%;
+    }
+    .email-account {
+        display: flex;
+        margin-top: 4%;
+        height: 55%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .social-account {
+        padding-left: 7%;
+        padding-top: 5%;
+    }
+    .number {
+        margin: 0;
+    }
+    .about-the-ending {
+        padding-left: 7%;
+        padding-top: 10%;
+    }
+    .end {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+    }
+}
 
 
 /*mobile*/
