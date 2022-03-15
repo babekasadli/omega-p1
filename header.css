@@ -86,7 +86,7 @@
     justify-content: space-between;
 }
 .o-kurse .section-1 .container .left-box {
-    width: 60%;
+    width: 50%;
 }
 .o-kurse .section-1 .container .left-box p {
     font-size: 20px;
@@ -100,6 +100,7 @@
 .o-kurse .section-1 .container .right-box .img{
     display: flex;
     justify-content: flex-end;
+    width: 80%;
 }
 .o-kurse .section-1 .container .right-box .img .img-1{
     width: 100%;
