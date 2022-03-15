@@ -16,10 +16,6 @@
         padding: 0px 6%;
         margin-bottom: 100px;
     }
-    
-    s-main2{
-        margin: 60px 0;
-    }
     .s-rec {
         width: 399px;
         height: 328px;
@@ -32,25 +28,33 @@
     .s-main2-p1 {
         font-weight: bold;
         font-size: 30px;
+        padding-left: 20px;
+        padding-top: 5px;
     }
 
     .s-main2-p2 {
         font-size: 25px;
-        margin: 0;
+        padding-left: 20px;
+    }
+    .pad{
+        padding-bottom: 25px;
     }
 
     .s-main2 img {
         width: 399px;
     }
-
-    .s-main2container {
+    .firstcontainerlist{
         display: flex;
-        flex-wrap: wrap;
-        padding: 0 3%;
+        justify-content: center;
     }
-
-    .s-rec p {
-        margin: 5px;
+    .secondcontainerlist{
+        display: flex;
+        justify-content: center;
+    }
+    .thirdcontainerlist{
+        display: flex;
+        justify-content: center;
+        margin-right: 420px;
     }
 }
 
@@ -66,13 +70,11 @@
 
     .s-main2 h2 {
         display: block;
+        text-align: center;
         font-size: 32px;
         font-weight: 700;
-        padding: 0px 6%;
+        padding-right: 35%;
         margin-bottom: 50px;
-    }
-    s-main2{
-        margin: 60px 0;
     }
 
     .s-rec {
@@ -87,25 +89,32 @@
     .s-main2-p1 {
         font-weight: bold;
         font-size: 17px;
+        padding-left: 10px;
     }
 
     .s-main2-p2 {
         font-size: 14px;
-        margin: 0;
+        padding-left: 10px;
+    }
+    .pad{
+        padding-bottom: 20px;
     }
 
     .s-main2 img {
         width: 231px;
     }
-
-    .s-main2container {
+    .firstcontainerlist{
         display: flex;
-        flex-wrap: wrap;
-        padding: 0 3%;
+        justify-content: center;
     }
-
-    .s-rec p {
-        margin: 5px;
+    .secondcontainerlist{
+        display: flex;
+        justify-content: center;
+    }
+    .thirdcontainerlist{
+        display: flex;
+        justify-content: center;
+        margin-right: 260px;
     }
 }
 
@@ -127,9 +136,6 @@
         margin-bottom: 30px;
         text-align: center;
     }
-    s-main2{
-        margin: 60px 0;
-    }
 
     .s-rec {
         width: 186px;
@@ -143,28 +149,35 @@
     .s-main2-p1 {
         font-weight: bold;
         font-size: 14px;
+        padding-left: 10px;
+        line-height: 100%;
     }
 
     .s-main2-p2 {
         font-size: 12px;
-        margin: 0;
+        padding-left: 10px;
+    }
+    .pad{
+        padding-bottom: 15px;
     }
 
     .s-main2 img {
         width: 186px;
     }
-
-    .s-main2container {
+    .firstcontainerlist{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        padding: 0 3%;
     }
-
-    .s-rec p {
-        margin: 5px;
+    .secondcontainerlist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .thirdcontainerlist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
