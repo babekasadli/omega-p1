@@ -28,7 +28,9 @@
 .kak-smotret-film .section-2 .icon-and-text .icons .margin-icon {
     margin-right: 2%;
 }
-
+.kak-smotret-film .section-2 .icon-and-text .icons .margin-icon span {
+    font-family: Roboto;
+} 
 .margin-text-logo {
     margin-left: 10px;
 }
